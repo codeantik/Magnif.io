@@ -326,12 +326,12 @@ export default function Loginpage() {
             >
               Login with Google
             </button>
-            <MicrosoftLogin 
+            {/* <MicrosoftLogin 
               className="outlook"
               clientId={process.env.REACT_APP_OUTLOOK_CLIENT_ID} 
               authCallback={authHandler}
               graphScopes={['calendars.read', 'user.read', 'openid', 'profile', 'people.read', 'user.readbasic.all']}
-            />
+            /> */}
             <span className="login-page-create-account">
               Not registered yet?{' '}
               <Link to="/register" style={{ color: 'blue', paddingLeft: '4px', textDecoration: 'none' }}>
