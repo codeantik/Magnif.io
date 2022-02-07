@@ -1,0 +1,6 @@
+POST http://34.223.255.47/uploadText HTTP/1.1
+content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+{
+    "file": "asfaskdfj",
+    "company": "test"
+}
