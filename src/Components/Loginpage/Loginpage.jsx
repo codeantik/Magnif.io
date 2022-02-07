@@ -320,12 +320,12 @@ export default function Loginpage() {
             <span type="submit" className="login-button" onClick={handleLogin}>
               Sign In
             </span>
-            <button
+            {/* <button
               className="google"
               onClick={handleGoogleAuth}
             >
               Login with Google
-            </button>
+            </button> */}
             {/* <MicrosoftLogin 
               className="outlook"
               clientId={process.env.REACT_APP_OUTLOOK_CLIENT_ID} 
